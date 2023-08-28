@@ -1,0 +1,199 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+body .main-container {
+  max-width: 1440px;
+}
+body .main-container main {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  padding: 20px 0;
+}
+header h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #353535;
+  padding: 40px;
+  color: white;
+}
+@media screen and (min-width: 992px) {
+  footer {
+    flex-direction: row-reverse;
+    gap: 70px;
+  }
+}
+footer .ohmyfoodFooter {
+  font-family: "Shrikhand", cursive;
+  font-style: italic;
+}
+footer .liensfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media screen and (min-width: 992px) {
+  footer .liensfooter {
+    flex-direction: row;
+  }
+}
+footer .liensfooter .lienfooter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: white;
+}
+
+.localization {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f6f6f6;
+}
+.localization form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #eaeaea;
+  gap: 10px;
+}
+.localization form i {
+  width: 12px;
+  height: 16px;
+  color: #353535;
+}
+.localization form .paris {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.localization .titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.localization .titles p {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.localization .buttonresto1 {
+  display: flex;
+  justify-content: center;
+}
+.localization .buttonresto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  height: 50px;
+  width: 220px;
+  border-radius: 25px;
+  border: solid 1px;
+  color: white;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.fonctionnement .itemsFonctionnement {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media screen and (min-width: 768px) {
+  .fonctionnement .itemsFonctionnement {
+    flex-direction: row;
+    gap: 10%;
+  }
+}
+.fonctionnement .itemsFonctionnement .itemFonctionnement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 73px;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  box-shadow: 1px 4px 8px 0px 0, 0, 0, 0.1;
+}
+@media screen and (min-width: 768px) {
+  .fonctionnement .itemsFonctionnement .itemFonctionnement {
+    width: 80%;
+  }
+}
+.fonctionnement .itemsFonctionnement .itemFonctionnement .number {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9356dc;
+  color: white;
+  margin-left: -12px;
+}
+.fonctionnement .itemsFonctionnement .itemFonctionnement .iconFonct {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fonctionnement .itemsFonctionnement .itemFonctionnement .iconFonct i {
+  color: gray;
+}
+.restaurant .restaurantbox {
+  background-color: brown;
+  width: 100%;
+  height: 73px;
+}
+
+/*# sourceMappingURL=index.css.map */
